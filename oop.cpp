@@ -5,16 +5,22 @@ class mahasiswa
 {
 public:
     int nim;
-    int nama;
+    string nama;
     float nilai;
     void printData(){
-        cout<<"NIM \t= "<<nim<<endl;
-        cout<<"Nama \t= "<<nama<<endl;
-        cout<<"Nilai \t= "<<nilai<<endl;
+        cout<<"NIM = "<<nim<<endl;
+        cout<<"Nama = "<<nama<<endl;
+        cout<<"Nilai = "<<nilai<<endl;
     }
 };
 
 int main()
 {
-   
+    mahasiswa mhs;
+    mhs.nim = 2021;
+    mhs.nama = "Balqis";
+    mhs.nilai = 100;
+
+    mhs.printData();
+    return 0;
 }
