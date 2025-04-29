@@ -1,26 +1,25 @@
 #include <iostream>
 using namespace std;
 
-class mahasiswa
+class Mahasiswa
 {
 public:
     int nim;
     string nama;
     float nilai;
     void printData(){
-        cout<<"NIM = "<<nim<<endl;
-        cout<<"Nama = "<<nama<<endl;
-        cout<<"Nilai = "<<nilai<<endl;
+        cout << "NIM = " << nim << endl;
+        cout << "Nama = " << nama << endl;
+        cout << "Nilai = " << nilai << endl;
     }
 };
 
 int main()
 {
-    mahasiswa mhs;
-    mhs.nim = 2021;
-    mhs.nama = "Balqis";
+    Mahasiswa mhs;
+    mhs.nim = 20210140149;
+    mhs.nama = "Balqis Eka Maharani";
     mhs.nilai = 100;
 
     mhs.printData();
-    return 0;
 }
