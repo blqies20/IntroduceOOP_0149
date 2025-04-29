@@ -1,9 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int nim;
-int nama;
-float nilia;
+class mahasiswa
+{
+public:
+    int nim;
+    int nama;
+    float nilai;
+};
 
 int main()
 {
